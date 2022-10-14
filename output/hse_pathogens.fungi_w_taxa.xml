@@ -1,0 +1,1126 @@
+<result>
+<domains>
+<domain id="biosamples" name="BioSamples" description="The BioSamples database aggregates sample information for reference samples e.g. Coriell Cell lines and samples for which data exist in one of the EBI's assay databases such as ArrayExpress, the European Nucleotide Archive, or PRIDE. It provides links to assays for specific samples, and accepts direct submissions of samples.">
+<indexInfos>
+<indexInfo name="Number of entries">15220186</indexInfo>
+<indexInfo name="Last modification date">Tue Aug 30 15:40:46 BST 2022</indexInfo>
+<indexInfo name="Release date">Thu Jul 30 15:55:51 BST 2020</indexInfo>
+<indexInfo name="Update date">Tue Sep 14 19:31:00 BST 2021</indexInfo>
+<indexInfo name="URL">https://www.ebi.ac.uk/biosamples</indexInfo>
+<indexInfo name="Index size">3 GB</indexInfo>
+<indexInfo name="Index size (B)">3440310085</indexInfo>
+<indexInfo name="Hidden domain">false</indexInfo>
+<indexInfo name="Dictionary Availability">false</indexInfo>
+<indexInfo name="Release version">BioSamples Full Samples Release</indexInfo>
+</indexInfos>
+<fieldInfos>
+<fieldInfo id="$facets" name="$facets" description="Lucene internal facets field">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">KEYWORD</option>
+<option name="topterms">false</option>
+<option name="default search field">false</option>
+</options>
+</fieldInfo>
+<fieldInfo id="ENA" name="ENA" description="Environment Ontology references">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="referenced domain">sra-sample</option>
+<option name="referenced field">acc</option>
+<option name="type">XREF</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="TAXONOMY" name="TAXONOMY" description="References to the Organism taxonomy">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">true</option>
+<option name="referenced domain">taxonomy</option>
+<option name="referenced field">id</option>
+<option name="type">XREF</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="age" name="age" description="Age">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="alias" name="alias" description="Alias">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="analyte_type" name="analyte_type" description="Analyte type">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="anonymized_name" name="anonymized_name" description="Anonymized name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="biomaterial_provider" name="biomaterial_provider" description="Biomaterial provider">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="biospecimen_repository" name="biospecimen_repository" description="Biospecimen repository">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="biospecimen_repository_sample_id" name="biospecimen_repository_sample_id" description="Biospecimen repository sample id">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">KEYWORD</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="broker_name" name="broker_name" description="Broker name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="cell_line" name="cell_line" description="Cell line">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="cell_type" name="cell_type" description="cell_type">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">true</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="collected_by" name="collected_by">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="collection_date" name="collection_date" description="Collection date">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">DATE</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="cultivar" name="cultivar" description="Cultivar">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="depth" name="depth" description="Depth">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="description" name="description" description="Description">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="description_title" name="description_title">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="development_stage" name="development_stage" description="Development stage">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="developmental_stage" name="developmental_stage" description="Developmental stage">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="disease" name="disease" description="Disease">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="disease_state" name="disease_state" description="Disease state">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">true</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="domain_source" name="domain_source" description="Domain source">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">true</option>
+<option name="type">KEYWORD</option>
+<option name="topterms">false</option>
+<option name="default search field">false</option>
+</options>
+</fieldInfo>
+<fieldInfo id="elevation" name="elevation">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="ena_checklist" name="ena_checklist">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="env_biome" name="env_biome">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="env_feature" name="env_feature">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="environment_biome" name="environment_biome" description="Environment biome">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">true</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="environment_feature" name="environment_feature" description="Environment feature">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="environment_material" name="environment_material" description="Environment material">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="environmental_medium" name="environmental_medium" description="Environmental medium">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="gap_accession" name="gap_accession" description="Gap accession">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="gap_consent_code" name="gap_consent_code">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="gap_consent_short_name" name="gap_consent_short_name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="gap_sample_id" name="gap_sample_id">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="gap_subject_id" name="gap_subject_id">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="genotype" name="genotype" description="Genotype">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="geographic_location" name="geographic_location">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="geographic_location_country_andor_sea" name="geographic_location_country_andor_sea">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="geographic_location_latitude" name="geographic_location_latitude">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="geographic_location_longitude" name="geographic_location_longitude">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="histological_type" name="histological_type" description="Histological type">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="host" name="host" description="host">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="host_age" name="host_age" description="Host age">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="host_disease" name="host_disease" description="Host disease">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="host_sex" name="host_sex" description="Host sex">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="host_subject_id" name="host_subject_id" description="Host subject id">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="host_taxid" name="host_taxid">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="id" name="id" description="Identifier">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">KEYWORD</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="individual" name="individual" description="Individual">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="insdc_center_alias" name="insdc_center_alias" description="INSDC center alias">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="insdc_center_name" name="insdc_center_name" description="INSDC center name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="insdc_first_public" name="insdc_first_public" description="INSDC first public">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">DATE</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="insdc_last_update" name="insdc_last_update" description="INSDC last update">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">DATE</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="insdc_secondary_accession" name="insdc_secondary_accession" description="INSDC secondary accession">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="insdc_status" name="insdc_status" description="INSDC status">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="investigation_type" name="investigation_type" description="Investigation type">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="is_tumor" name="is_tumor" description="Is tumor">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="isolate" name="isolate">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="isolation_source" name="isolation_source" description="Isolation source">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="latitude" name="latitude" description="Latitude">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="latitude_and_longitude" name="latitude_and_longitude" description="Latitude and longitude">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="local_scale_environmental_context" name="local_scale_environmental_context">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="longitude" name="longitude" description="Longitude">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="molecular_data_type" name="molecular_data_type">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="name" name="name" description="Name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="ncbi_submission_model" name="ncbi_submission_model">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="ncbi_submission_package" name="ncbi_submission_package">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="organism" name="organism" description="Organism">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="organism_part" name="organism_part" description="Organism part">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">true</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="project_name" name="project_name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="release_date_date" name="release_date_date" description="Release date">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="alias">release_date</option>
+<option name="type">DATE</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="replicate" name="replicate">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="sample_name" name="sample_name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="sample_title" name="sample_title">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="sample_type" name="sample_type" description="Sample type">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">true</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="secondary_description" name="secondary_description">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="sequencing_method" name="sequencing_method" description="Sequencing method">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">true</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="serovar" name="serovar">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="sex" name="sex" description="Sex">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="source_name" name="source_name" description="Source name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="sra_accession" name="sra_accession">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="strain" name="strain" description="Strain">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="study_design" name="study_design">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="study_disease" name="study_disease">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="study_name" name="study_name">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="subject_id" name="subject_id">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="subject_is_affected" name="subject_is_affected">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="submission_description" name="submission_description">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="submission_identifier" name="submission_identifier">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="submission_title" name="submission_title">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="submitted_sample_id" name="submitted_sample_id">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="submitted_subject_id" name="submitted_subject_id">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="submitter_handle" name="submitter_handle">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="synonym" name="synonym" description="Synonym">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="tissue" name="tissue">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="title" name="title" description="Title">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">true</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="treatment" name="treatment">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="type">TEXT</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+<fieldInfo id="update_date_date" name="update_date_date" description="Update date">
+<options>
+<option name="searchable">true</option>
+<option name="retrievable">false</option>
+<option name="sortable">false</option>
+<option name="facet">false</option>
+<option name="alias">update_date</option>
+<option name="type">DATE</option>
+<option name="topterms">false</option>
+<option name="default search field">true</option>
+</options>
+</fieldInfo>
+</fieldInfos>
+</domain>
+</domains>
+</result>
