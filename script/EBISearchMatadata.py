@@ -35,11 +35,11 @@ else :
 	init2= "https://www.ebi.ac.uk/ebisearch/ws/rest/biosamples?filter="
 
 if "--fields" in s :
-	end1 = "&fields="+s[s.index("--fields")+1]
-	end2 = "&fields="+s[s.index("--fields")+1]+"'"
+	end1 = "&fields="+s[s.index("--fields")+1]+"'"
+	end2 = "&fields="+s[s.index("--fields")+1]
 else:
-	end1 = "&fields=id,name,collection_date"
-	end2 = "&fields=id,name,collection_date'"
+	end1 = "&fields=id,name,collection_date'"
+	end2 = "&fields=id,name,collection_date"
 
 '''
 this function allows to read the json file 
@@ -59,9 +59,9 @@ def requet (file_directory):
 		query2 += "%20OR"
 	query1 += end1
 	query2 += end2
-	webbrowser.open_new_tab(query1)
-	output =open(s[2].split(".json")[0]+".xml","w")
-	output.write(os.popen(query2))
+	webbrowser.open_new_tab(query2)
+	output = s[2].split(".json")[0]+".xml"
+	os.system(query1 +" > " +output)
 
 
 requet(s[2])
