@@ -26,8 +26,8 @@ NB: you don't need to write it (damine and fields) if you don't change domain or
 
 ## Output
 After execution of the code, three files will be created in the same directory as the input file:
-* \<file\>.xml : containing the metadata
-* \<file\>_request_url.txt : containing the url
-* \<file\>_request_curl.txt : containing the command line 
+* \<file\>_N*.xml : containing the metadata
+* \<file\>_request_url_N*.txt : containing the url
+* \<file\>_request_curl_N*.txt : containing the command line 
 
 
