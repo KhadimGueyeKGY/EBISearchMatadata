@@ -46,29 +46,42 @@ this function allows to read the json file
 but also to get the taxon_id and to launch the results in the webbrowser.
 '''
 
-def requet (file_directory):
+def requet (file_directory,index_file,f):
     with open(file_directory) as mf:
         file = json.load(mf)
     query1 = init1
     query2 = init2
-    for i in range(len(file)):
+    if f != 0 :
+        f += 1
+    for i in range(f,len(file)):
+        print(i)
         query1 += "\""+str(file[i]["name"]).replace(" ","%20")+"\""
         query2 += "\""+str(file[i]["name"]).replace(" ","%20")+"\""
+        if i != f:
+            if i%100 ==0:
+                break
         if i < len(file)-1:
             query1 += "%20OR%20"
             query2 += "%20OR%20"
     query1 += end1
     query2 += end2
-    output = s[2].split(".json")[0]+".xml"
-    output2 = open(s[2].split(".json")[0]+"_request__url.txt","w")
-    output3 = open(s[2].split(".json")[0]+"_request__curl.txt","w")
+    output = s[2].split(".json")[0]+"_N"+str(index_file)+".xml"
+    output2 = open(s[2].split(".json")[0]+"_request_url_N"+str(index_file)+".txt","w")
+    output3 = open(s[2].split(".json")[0]+"_request_curl_N"+str(index_file)+".txt","w")
     os.system(query1 +" > " +output)
     output2.write(query2)
     output3.write(query1)
-    webbrowser.open_new_tab(query2)
+    output2.close()
+    output3.close()
+    print("\n\n\n")
+    # webbrowser.open_new_tab(query2)
 
-
-requet(s[2])
+with open(s[2]) as mF:
+    File = json.load(mF)
+index_File = 0
+for e in range(0,len(File),100):
+    requet(s[2],index_File,e)
+    index_File += 1
 
 # requet('C:/Users/Dell/Desktop/taxon work/Colman_Work/input/hse_pathogens.bacteria_w_taxa.json')
 
